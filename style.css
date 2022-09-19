@@ -1,8 +1,6 @@
 :root{
-    --deep-color: #000000;
-    --primary-color: #42C2FF;
-    --first-color:#EEEEEE;
-    --second-color: #EFB7B7;
+    --primary-color: #2B4865;
+    --second-color: #FF87B2;
 }
 
 *{
@@ -18,8 +16,8 @@ h1{
 }
 
 body{
-    background-color: var(--primary-color);
-    color: var(--first-color);
+    background-color: var(--second-color);
+    color: var(--primary-color);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -43,9 +41,10 @@ input {
 
 #submit-btn
 {
-    background-color: var(--second-color);
-    border-color: var(--primary-color);
+    background-color:#21E1E1;
+    border-color: var(--second-color);
     border-radius: 1rem;
+    font-weight: bolder;
     margin: 2rem;
     padding: 1rem 1rem;
     width: 10rem;
@@ -55,6 +54,8 @@ input {
 output{
     margin-top: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: black;
 }
 
 @media only screen and (min-width: 700px) {
