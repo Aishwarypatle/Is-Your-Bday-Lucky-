@@ -19,7 +19,7 @@ h1{
 
 body{
     background-color: var(--primary-color);
-    color: var(first-color);
+    color: var(--first-color);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -32,4 +32,33 @@ input {
 label{
     font-size: 2rem;
     padding-bottom: 1rem;
+}
+
+input {
+    margin: auto;
+    width: 60%;
+    margin-bottom: 1.5rem;
+    border-radius: .5rem;
+}
+
+#submit-btn
+{
+    background-color: var(--second-color);
+    border-color: var(--primary-color);
+    border-radius: 1rem;
+    margin: 2rem;
+    padding: 1rem 1rem;
+    width: 10rem;
+
+}
+
+output{
+    margin-top: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media only screen and (min-width: 700px) {
+    input {
+      width:20% 
+    }
 }
